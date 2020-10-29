@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FORM PENDAFTARAN</title>
+        <style>
+                h1{
+                    text-align: center;
+                }   
+        </style>
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <div>
+            <form>
+                <table align="right" cellspacing="1" cellpadding="20">
+                    <tr>
+                        <td>
+                            <label for="date">DATE</label>
+                            <input type="date" name="date" id="date">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <br><br>
+        <div>
+            <form>
+                <table align="left" cellspacing="1" cellpadding="20">
+                    <tr>
+                        <td><h3>PERSONAL INFORMATION</h3></td>        
+                    </tr>
+                    <tr>
+                        <td><label for="name">NAME</label></td>
+                        <td><input type="text" name="name" id="name" style="width: 300px;" placeholder="Yourname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">DATE OF BIRTHDAY</label></td>
+                        <td><input type="date" name="dob" id="dob" style="width: 300px;"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div>
+            <form>
+                
+                <table align="left" cellspacing="1" cellpadding="20">
+                    <tr>
+                        <td><h3>CONTACT INFORMATION</h3></td>
+                    </tr>
+                    <tr>    
+                        <td><label for="address">ADDRESS</label></td>
+                        <td><input type="text" name="address" id="address" style="width: 300px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">CITY</label></td>
+                        <td><input type="text" name="city" id="city" style="width: 300px;"></td>
+                        <td><label for="province">PROVINCE</label></td>
+                        <td><input type="text" name="province" id="province" style="width: 300px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="zip_code">ZIP CODE</label></td>
+                        <td><input type="number" name="zip_code" id="zip_code" style="width: 300px;"></td>
+                        <td><label for="country">COUNTRY</label></td>
+                        <td><input type="text" name="country" id="country" style="width: 300px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">PHONE</label></td>
+                        <td><input type="number" name="phone" id="phone" style="width: 300px;"></td>
+                        <td><label for="email">EMAIL</label></td>
+                        <td><input type="email" name="email" id="email" style="width: 300px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="membership_type">MEMBERSHIP TYPE</label></td>
+                        <td><input type="radio" name="membership_type" id="membership_type">REGULER</td>
+                        <td><input type="radio" name="membership_type" id="membership_type">PREMIUM</td>
+                        <td></td>
+                        <td><input type="radio" name="membership_type" id="membership_type">VIP</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">GENDER</label>
+                            <td><input type="radio" name="gender" id="gender" value="male">MALE</td>
+                            <td><input type="radio" name="gender" id="gender" value="female">FEMALE</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center"><input type="submit" name="submit" id="submit" style="width: 200px;"></td>
+                        <td align="center"><input type="reset" name="reset" id="reset" style="width: 200px;"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
