@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Landing Page</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            header{
+                background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("takraw.jpg");
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            }
+            ul{
+                list-style-type: none;
+                float: right;
+                margin-top: 20px;
+            }
+            ul li{
+                display: inline-block;
+            }
+            ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 5px 20px;
+                border: 1px solid transparent;
+            }
+            ul li a:hover{
+                background-color: white;
+                color: black;
+            }
+            .main{
+             max-width: 1200px;
+             margin: auto;                
+            }
+            .title{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: white;
+            }
+            .button{
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                color: white;
+                transform: translate(-50%,-50%);
+            }
+            .btn{
+                border: 1px solid white;
+                padding: 10px 20px;
+                color: white;
+                text-decoration: none;
+            }
+        </style>
+    </body>
+    <header>
+        <div class="main">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">TEAM</a></li>
+            </ul>
+        </div>
+        <div class="title">   
+            <h1>SELAMAT DATANG DI WEBSITE TAKRAW</h1>
+        </div>
+        <div class="button">
+            <a href="#" class="btn">LEARN MORE</a>
+        </div>
+    </header>
+</html>
